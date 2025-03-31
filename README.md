@@ -42,6 +42,8 @@ The flow is relativly simple, you present the users with a screen that generates
 
 ![image](https://github.com/user-attachments/assets/d4b0b824-127b-450e-b7d5-005eaad57a98)
 
+Sample UX -> https://f002.backblazeb2.com/file/hope-edge-pub/Scan2SalesforceVid.mp4 
+
 ### 5) Ingest the document
 Invoke your newly created Scan2Salesforce job on the scanner interface and enter the Scan ID we got from Salesforce. Feed the document and EdgeXperience will take the images in and begin the image clean up process, eventually dropping the files off in the SharePoint library we created in step 1. Now it's up to PowerAutomate to take the the file from SharePoint and send it off to Salesforce.
 ![image](https://github.com/user-attachments/assets/0cedca09-9c5f-4255-8a39-36c34f490542)
